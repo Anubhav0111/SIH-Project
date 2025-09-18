@@ -51,6 +51,24 @@ const Navbar = () => {
         >
           Contact
         </button>
+        <Link
+          to="/signup"
+          className="text-gray-700 hover:text-blue-600"
+        >
+          Sign Up
+        </Link>
+        <Link
+          to="/login"
+          className="text-gray-700 hover:text-blue-600"
+        >
+          Log In
+        </Link>
+        <Link
+          to="/profile"
+          className="text-gray-700 hover:text-blue-600"
+        >
+          Profile
+        </Link>
       </nav>
     </header>
   );
